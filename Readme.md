@@ -33,7 +33,7 @@ Each method handles logs depending on how structured or ambiguous the text is.
 ```bash
 pip install -r requirements.txt
    ```
-2. **Run the FastAPI Server**:
+### 2. **Run the FastAPI Server**:
    To start the server, use the following command:
 
    ```bash
@@ -44,7 +44,7 @@ pip install -r requirements.txt
    - `http://127.0.0.1:8000/` (Main endpoint)
    - `http://127.0.0.1:8000/docs` (Interactive Swagger documentation)
      
-3. **How to use?
+### 3. **How to use?**
    Upload a CSV file containing logs to the FastAPI endpoint for classification. Ensure the file has the following columns:
 - `source`
 - `log_message`
