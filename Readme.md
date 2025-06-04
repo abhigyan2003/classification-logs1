@@ -1,4 +1,4 @@
-# 🔧 Log Classification using a Hybrid System
+# Log Classification using a Hybrid System
 
 This is a basic log classification project that combines three methods to handle different types of log messages — from simple and predictable ones to complex or unlabeled ones.
 
@@ -6,7 +6,7 @@ We upload a log file (in CSV format) through a FastAPI backend, and it returns a
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 This system uses three different techniques:
 - **Regex** — for basic, predictable log formats using predefined patterns.
