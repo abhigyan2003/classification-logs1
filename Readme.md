@@ -20,6 +20,33 @@ Instead of relying on just one method, I’ve combined three different approache
    - Provides a fallback or complementary approach to the other methods.
 
 ![architecture](resources/arch.png)
+# 🔍 Hybrid Log Classification System
+
+![Python](https://img.shields.io/badge/python-3.7%2B-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.68.0-green)
+![License](https://img.shields.io/badge/license-MIT-orange)
+
+An intelligent log classification tool that automatically categorizes computer logs using three complementary AI approaches.
+
+## Table of Contents
+- [Features](#-features)
+- [How It Works](#-how-it-works)
+- [Quick Start](#-quick-start)
+- [Usage](#-usage)
+- [Project Structure](#-project-structure)
+- [Example](#-example)
+- [API Documentation](#-api-documentation)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+## 🌟 Features
+
+- **Multi-method classification** (Regex, Sentence Transformer, LLM)
+- **Simple CSV input/output** format
+- **Built-in API documentation** (Swagger UI)
+- **Local processing** - Your data never leaves your machine
+- **Customizable** classification rules
+
 ## 🧠 How It Works
 
 The system intelligently routes each log message through the most appropriate classification method:
@@ -34,9 +61,6 @@ graph TD
     C --> G[Output Label]
     E --> G
     F --> G
----
-
-
 
 ## Setup Instructions
 
