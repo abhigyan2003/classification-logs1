@@ -15,6 +15,7 @@ This system uses three different techniques:
 
 Each method handles logs depending on how structured or ambiguous the text is.
 
+![architecture](resources/arch.png)
 ---
 
 ## 📁 Project Structure
