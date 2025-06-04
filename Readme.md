@@ -1,12 +1,12 @@
 
-# Log Classification With Hybrid Classification Framework
+# Log Classification 
 
-This project implements a hybrid log classification system, combining three complementary approaches to handle varying levels of complexity in log patterns. The classification methods ensure flexibility and effectiveness in processing predictable, complex, and poorly-labeled data patterns.
+This project implements a hybrid log classification system, combining three complementary approaches to handle varying levels of complexity in log patterns. The idea was to build a system that can classify different types of logs—like security alerts, errors, and workflow messages—based on the patterns in the text.
 
 ---
 
 ## Classification Approaches
-
+Instead of relying on just one method, I’ve combined three different approaches, each useful in different situations. 
 1. **Regular Expression (Regex)**:
    - Handles the most simplified and predictable patterns.
    - Useful for patterns that are easily captured using predefined rules.
@@ -23,22 +23,7 @@ This project implements a hybrid log classification system, combining three comp
 
 ---
 
-## Folder Structure
 
-1. **`training/`**:
-   - Contains the code for training models using Sentence Transformer and Logistic Regression.
-   - Includes the code for regex-based classification.
-
-2. **`models/`**:
-   - Stores the saved models, including Sentence Transformer embeddings and the Logistic Regression model.
-
-3. **`resources/`**:
-   - This folder contains resource files such as test CSV files, output files, images, etc.
-
-4. **Root Directory**:
-   - Contains the FastAPI server code (`server.py`).
-
----
 
 ## Setup Instructions
 
